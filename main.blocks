@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_button_event" id="%pQUIz[H_3`BS-Q^x*b)" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_while" id="J~pBR-)8J[dia/~XJu~$"><value name="COND"><shadow type="logic_boolean" id="WXJDASWGZ1WHv)S,HOAH"><field name="BOOL">TRUE</field></shadow></value><statement name="DO"><block type="controls_if" id="DW|toU4i61@#o;?.uVB#"><mutation elseif="2" else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_pin_is_pressed" id="%-K*zyf1DK1Qcoa?N^s;"><field name="NAME">TouchPin.P0</field></block></value><statement name="DO0"><block type="device_show_leds" id="f(8vTi3Bc6D=@ZP?G27e"><field name="LEDS">`
+        . . . # . 
+        # # # . . 
+        . . # . . 
+        # . # . . 
+        . . . . .
+        `</field></block></statement><value name="IF1"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_pin_is_pressed" id="546DusSdy1;hrTeBHH;H"><field name="NAME">TouchPin.P1</field></block></value><statement name="DO1"><block type="device_show_leds" id=":jbVIp}~LADrS=!8m73g"><field name="LEDS">`
+        . . . . . 
+        . . # . . 
+        . # . . . 
+        . # . . . 
+        . . . . .
+        `</field></block></statement><value name="IF2"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_pin_is_pressed" id="pO!_/^^_z]dgn2dJBzi2"><field name="NAME">TouchPin.P2</field></block></value></block></statement></block></statement></block></xml>
