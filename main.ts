@@ -1,8 +1,8 @@
 let Lives = 0
 input.onButtonPressed(Button.A, function () {
     Lives = 3
-    while (Lives) {
-        basic.showNumber(0)
+    while (true) {
+        basic.showNumber(Lives)
         if (input.pinIsPressed(TouchPin.P0)) {
             music.playTone(880, music.beat(BeatFraction.Double))
             Lives += -1
@@ -33,6 +33,7 @@ input.onButtonPressed(Button.A, function () {
                     . . . . .
                     . . . . .
                     `)
+                basic.showString("Game Over!")
                 break;
             }
         }
