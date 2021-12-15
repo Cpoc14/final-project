@@ -1,7 +1,8 @@
 let Lives = 0
 input.onButtonPressed(Button.A, function () {
     Lives = 3
-    while (true) {
+    while (Lives) {
+        basic.showNumber(0)
         if (input.pinIsPressed(TouchPin.P0)) {
             music.playTone(880, music.beat(BeatFraction.Double))
             Lives += -1
